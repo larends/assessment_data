@@ -23,21 +23,21 @@ The following records had new values imputed:
 
 ## Summary of Data
 
-<img src="num_stud.png" width=400 height=200 />
+<img src="num_stud.png" width=600 height=400 />
 
 
 5th, 6th and 8th grades have above the average number of students, while 7th grade has the fewest students.
 
 
-<img src="dist_scores_grade.png" width=400 height=200 />
+<img src="dist_scores_grade.png" width=600 height=400 />
 
 The median score is consistent throughout the grades. The scores appear to be less variable in 7th and 8th grade, but this may be to differences in the maximum and minimum scores for those tests. 
 
-<img src="per_prof_per_grade.png" width=400 height=200 />
+<img src="per_prof_per_grade.png" width=600 height=400 />
 
 Proficiency is highest in 3rd, consistent in 4th-6th and then drops off in 7th and 8th grade.
 
-<img src="pred_actual_bar.png" width=400 height=200 />
+<img src="pred_actual_bar.png" width=600 height=400 />
 
 In 3rd-6th, the predicted proficient rates are lower than the actual proficient rates. In 8th grade, this is reversed with students scoring not proficient after a prediction of proficient.
 
