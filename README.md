@@ -43,7 +43,7 @@ In 3rd-6th, the predicted proficient rates are lower than the actual proficient 
 
 <img src="pred_accuracy.png" width=600 height=400 />
 
-We can see that the incorrect classifications occur in every grade level and tend to be be clustered. Interestingly, the misclassified points are not centered around the boundary scores for proficiency. 
+We can see that the incorrect classifications occur in every grade level and tend to be be clustered. Interestingly, the misclassified points are not centered around the boundary scores for proficiency. Overall, there is an 84% accuracy on classification.
 
 <img src="dist_scores_school.png" width=600 height=400 />
 
@@ -73,6 +73,13 @@ Over half of the students performed below grade level on the i-Ready assessment,
 <img src="above_below.png" width=600 height=400 />
 
 There is more variability in the levels of the students performing below grade level.
+
+
+## Future Work
+
+- With the linear relationship between scores, it would make sense to fit a linear model to the date in order to predict test scores from i-Ready scores. With the provided information, I would use the grade level information (one-hot encoded since it is categorical) and the i-Ready scores as the dependent variables and the test score as the dependent variable. 
+
+- I would also check to see if I could train a classification model on the data to improve upon the 84% accuracy rate. 
 
 
 **A note on graph selection**
